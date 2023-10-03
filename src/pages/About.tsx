@@ -8,4 +8,4 @@ const About = (props: Props) => {
   )
 }
 
-export default About
+export default About  

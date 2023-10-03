@@ -1,10 +1,15 @@
 import React from 'react'
+import Searchform from '../components/Searchform'
+import CocktailList from '../components/CocktailList'
 
 type Props = {}
 
 const Home = (props: Props) => {
   return (
-    <div>Home</div>
+    <div>
+      <Searchform />
+      <CocktailList />
+    </div>
   )
 }
 
